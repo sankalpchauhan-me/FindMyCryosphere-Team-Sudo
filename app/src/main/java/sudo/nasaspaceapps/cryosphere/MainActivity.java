@@ -21,9 +21,11 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.PlacePhotoMetadata;
@@ -57,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
 
     //------------------------UI's----------------------------------
     TextView mainData;
+    TextView temp;
+    ImageView plainImg1;
+    TextView tempNav;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,6 +80,10 @@ public class MainActivity extends AppCompatActivity {
 
         //UI's----------------------------------
         mainData = findViewById(R.id.FrontData);
+        temp = findViewById(R.id.tempmain);
+        plainImg1 = findViewById(R.id.planeimg1);
+        Glide.with(this).load(R.drawable.image1).into(plainImg1);
+        tempNav = findViewById(R.id.tempnav);
 
 
         //----------------------------NavigationView----------------------------------------
@@ -93,9 +102,9 @@ public class MainActivity extends AppCompatActivity {
                         // Add code here to update the UI based on the item selected
                         // For example, swap UI fragments here
                         switch (menuItem.getItemId()) {
-                            case R.id.nav_UV:
-
-                                break;
+//                            case R.id.nav_UV:
+//
+//                                break;
 
                             case R.id.nav_Blogs:{
                                 Intent i = new Intent(MainActivity.this,BlogActivity.class);
@@ -104,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
 
                                 break;
 
-                            case R.id.nav_skin:
+//                            case R.id.nav_skin:
 
                         }
 
@@ -259,15 +268,18 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Success", Toast.LENGTH_SHORT).show();
                 try {
                     Weather list = response.body();
-                    //temperature.setText(response.body().getQuery().getResults().getChannel().getItem().getCondition().getTemp());
+                    temp.setText(response.body().getQuery().getResults().getChannel().getItem().getCondition().getTemp()+" 'C");
+//                    tempNav.setText(response.body().getQuery().getResults().getChannel().getItem().getCondition().getTemp()+" 'C");
+//                    tempHumid.setText(response.body().getQuery().getResults().getChannel().getAtmosphere().getHumidity());
                     //mainData.setText(Html.fromHtml(response.body().getQuery().getResults().getChannel().getItem().getDescription()));
                     String formattedText = getString(R.string.html_string);
                     Spanned result = Html.fromHtml(formattedText);
                     mainData.setText(result);
 
+
                 }
                 catch (NullPointerException e){
-                   // temperature.setText("0");
+                    temp.setText("0");
                 }
 
             }

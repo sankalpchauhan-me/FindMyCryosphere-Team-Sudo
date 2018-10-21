@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Cryosphere</string>
     <string name="title_activity_maps">Map</string>
-    <string name="html_string"><![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/34.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Mostly Sunny\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Sun - Sunny. High: 88Low: 66\n<BR /> Mon - Sunny. High: 87Low: 60\n<BR /> Tue - Sunny. High: 89Low: 60\n<BR /> Wed - Mostly Sunny. High: 89Low: 63\n<BR /> Thu - Sunny. High: 89Low: 63\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2295019/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n<BR />\n]]></string>
+    <string name="html_string"><![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/34.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Mostly Sunny\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Sun - Sunny. High: 88Low: 66\n<BR /> Mon - Sunny. High: 87Low: 60\n<BR /> Tue - Sunny. High: 89Low: 60\n<BR /> Wed - Mostly Sunny. High: 89Low: 63\n<BR /> Thu - Sunny. High: 89Low: 63\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2295019/\"></a>\n<BR />\n<BR />\n<BR />\n]]></string>
 </resources>

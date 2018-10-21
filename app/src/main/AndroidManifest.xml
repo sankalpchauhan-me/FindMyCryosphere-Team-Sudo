@@ -42,7 +42,8 @@
             android:label="@string/title_activity_maps" />
         <activity android:name=".Cryosphere" />
         <activity android:name=".BlogActivity" />
-        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".SplashActivity"></activity>
     </application>
 
 </manifest>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <group android:checkableBehavior="single">
-        <item
+        <!--<item
             android:id="@+id/nav_UV"
-            android:title="Item" />
+            android:title="Item" />-->
         <item
             android:id="@+id/nav_Blogs"
             android:title="Blogs" />
-        <item
+        <!--<item
             android:id="@+id/nav_skin"
-            android:title="Item" />
+            android:title="Item" />-->
         <item
             android:id="@+id/nav_manage"
             android:title="About" />
