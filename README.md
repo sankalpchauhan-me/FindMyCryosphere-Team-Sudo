@@ -1,4 +1,4 @@
-# Find My Cryosphere Nasa Space Apps 2018
+# Find My Cryosphere Nasa Space Apps Hackathon 2018 By Team Sudo (New Delhi,India)
 ##PPT:- [PPT](https://github.com/sankalpchauhan-me/cryosphere/blob/master/Team%20Name%20-%20SUDO.pptx)
 
 ## THE CHALLENGE
