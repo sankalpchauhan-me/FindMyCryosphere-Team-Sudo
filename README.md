@@ -1,5 +1,6 @@
-# Find My Cryosphere Nasa Space Apps Hackathon 2018 By Team Sudo (New Delhi,India)
-##PPT:- [PPT](https://github.com/sankalpchauhan-me/cryosphere/blob/master/Team%20Name%20-%20SUDO.pptx)
+# Find My Cryosphere Nasa Space Apps Hackathon 2018
+## Solution for Find My Cryosphere Challenge under icy-glare By Team Sudo (New Delhi,India)
+### Power Point Presentation (.pptx format):- [PPT](https://github.com/sankalpchauhan-me/cryosphere/blob/master/Team%20Name%20-%20SUDO.pptx)
 
 ## THE CHALLENGE
 Design an app that lets a user pick a location and learn about the parts of Earth's cryosphere that impact that location.
