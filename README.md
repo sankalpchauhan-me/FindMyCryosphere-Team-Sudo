@@ -1,4 +1,4 @@
-# cryosphere
+# Find My Cryosphere
 ##PPT:- [PPT](https://github.com/sankalpchauhan-me/cryosphere/blob/master/Team%20Name%20-%20SUDO.pptx)
 
 Current State of the App(Gif):-
